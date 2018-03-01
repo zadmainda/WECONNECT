@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Business Listings">
+	<meta name="keywords" content="Weconnect">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>Business Registration</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="signupform.html">Sign Up</a></li>
+	<li><a class="active" href="business_registration_form.html">Register Business</a></li>
+	<li><a href="update_your_business.html">Update Your Business</a></li>
+	<li><a href="business_catalog.html">Listed Business</a></li>
+	<li><a href="search.html">Search Page</a></li>
+</ul>
+<body>
+	<div class="loginBox">
+		<!-- <img src="briefcase.png" class="user"> -->
+		<form action="action_page.php">
+			<p>Company's Name</p>
+			<input type="text" name="name" placeholder="Bonoko Sounds">
+			<p>Where your Company is based</p>
+			<input type="number" name="location" placeholder="Nairobi">
+			<p>Contact Number</p>
+			<input type="number" name="contact " placeholder="+254 7* *** ***">
+			<p>Physical Address</p>
+			<input type="number" name="Address">
+			<p>Main objectives of Company</p>
+			<input type="text" name="objective_1" placeholder="Primary Objective">
+			<input type="text" name="objective_2" placeholder="Secondary Objective">
+			<p>Type of Company</p>
+		<p>
+			<select name="type_of_company">
+				<option value="PLC">Public Limited Company</option>
+				<option value="LTD">Private Company Limited</option>
+				<option value="LLP">Limited Liability Partnership</option>
+				<option value="NGO">Non Governmental Organisation</option>
+				<option value="Non-profit">Non-Profit</option>
+			</select>
+		</p>
+		<br>
+		<input type="submit" name="submit">
+	</form>
+	</div>
+
+</body>
+</html>

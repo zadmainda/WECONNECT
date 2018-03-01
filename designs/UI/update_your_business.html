@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Business Listings">
+    <meta name="keywords" content="business, meetups">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update your Business Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="signupform.html">Sign Up</a></li>
+    <li><a href="business_registration_form.html">Register Business</a></li>
+    <li><a class="active" href="update_your_business.html"> Update Your Business</a></li>
+    <li><a href="business_catalog.html">Listed Business</a></li>
+    <li><a href="search.html">Search Page</a></li>
+</ul>
+
+<body>
+    <div class="loginBox">
+        <form action="action_page.php">
+            <h2>Update your Details</h2>
+            <p>Company's Name</p>
+            <input type="text" name="new_name" placeholder="You can only update this once">
+            <p>Why do you seek updates?</p>
+            <input type="text" name="reasons" placeholder="">
+            <p>Contact Number</p>
+            <input type="number" name="new_number" placeholder="+254 7* *** ***">
+            <p>Physical Adress</p>
+            <input type="number" name="new_physical_adress">
+            <p>Type Of Company</p>
+            <p>
+                <select name="company">
+                    <option value="PLC">Public Limited Company</option>
+                    <option value="LTD">Private Company Limited</option>
+                    <option value="LLP">Limited Liability Partnership</option>
+                    <option value="NGO">Non-Govermental-Organisation</option>
+                    <option value="Non-Profit">Non-Profit</option>
+                </select>
+            </p>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
